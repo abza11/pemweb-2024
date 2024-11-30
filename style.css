@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box; 
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+.wrapper {
+    max-width: 1200px; 
+    margin: auto;
+    padding: 0 20px; 
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: bold;
+    color: #FF8000;  
+    border-bottom: 5px solid #FF8000;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end; 
+    background: #FFFFFF;
+    border-bottom: 1px solid #FF8000;
+}
+
+nav ul {
+    display: flex; 
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px; 
+}
+
+nav ul li a {
+    color: #050505;
+    font-weight: bold;
+    padding: 16px;
+    text-align: center;
+    transition: color 0.3s; 
+}
+
+nav ul li a:hover {
+    color: #FF8000; 
+}
+
+section {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin: 50px 0;
+    padding: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+}
+
+.kolom {
+    text-align: center; 
+}
+
+.kolom img { 
+    max-width: 100%;
+    height: auto;
+}
+
+.kolom .description {
+    font-size: 30px; 
+    font-weight: bold;
+    color: #FF8000;
+    margin: 20px 0;
+}
+
+a.tbl-brown, a.tbl-kuning {
+    background: #FF8000;
+    border-radius: 20px;
+    padding: 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    transition:  0.3s; 
+}
+
+a.tbl-brown:hover, a.tbl-kuning:hover {
+    background: #0672ee; 
+}
+
+p {
+    margin: 20px;
+    padding: 10px 0;
+}
+
+.tengah {
+    text-align: center; 
+}
+
+.Product-list {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.Product {
+    flex: 1 1 200px; 
+    margin: 10px; 
+    text-align: center;
+}
+
+.Product img {
+    max-width: 80%; 
+    border-radius: 50%;
+}
+
+.Product p {
+    font-weight: bold;
+    font-size: 20px;
+    color: #FF8000;
+}
+
+#contact {
+    background: #dedede;
+    padding: 50px 0;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    margin: auto;
+    padding: 20px;
+}
+
+.footer-section {
+    flex: 1 1 200px; 
+    text-align: center;
+    margin: 10px; 
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #FF8000;
+    margin-bottom: 10px;
+}
+
+.copyright {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+@media screen and (max-width: 991.98px) {
+    .logo a {
+        text-align: center; 
+    }
+
+    nav .menu {
+        flex-direction: column;
+        align }
+    }
